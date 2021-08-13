@@ -89,7 +89,7 @@ export const MenuButton = styled.button`
     }
 
     @media (min-width: 1280px) {
-      width: 100%width;
+      width: 100%;
       height: unset;
 
       > span {
@@ -114,7 +114,7 @@ export const MenuButton = styled.button`
   }
 `;
 
-const iconsCSS = css`
+const iconCSS = css`
   flex-shrink: 0;
 
   width: 30px;
@@ -123,23 +123,23 @@ const iconsCSS = css`
 `;
 
 export const HomeIcon = styled(Home)`
-  ${iconsCSS}
+  ${iconCSS}
 `;
 
 export const BellIcon = styled(Notifications)`
-  ${iconsCSS}
+  ${iconCSS}
 `;
 
 export const EmailIcon = styled(Email)`
-  ${iconsCSS}
+  ${iconCSS}
 `;
 
 export const FavoriteIcon = styled(FavoriteBorder)`
-  ${iconsCSS}
+  ${iconCSS}
 `;
 
 export const ProfileIcon = styled(Person)`
-  ${iconsCSS}
+  ${iconCSS}
 `;
 
 export const Botside = styled.div`
@@ -166,7 +166,7 @@ export const ProfileData = styled.div`
     display: flex;
     flex-direction: column;
 
-    margin-top: 10px;
+    margin-left: 10px;
     font-size: 14px;
 
     > span {
@@ -181,7 +181,7 @@ export const ExitIcon = styled(ExitToApp)`
   @media (min-width: 1280px) {
     display: inline-block;
     width: 25px;
-    heigth: 25px;
+    height: 25px;
     color: var(--white);
     margin-left: 30px;
     cursor: pointer;
